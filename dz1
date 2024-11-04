@@ -1,10 +1,9 @@
-#"4th program".
-str0 = ('123.456')
-str1 = str0[4]
+my_string = (input("Введите текст: "))
+print(len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.replace(" ", ""))
+str1 = my_string[0]
 print(str1)
-str2 = (float(str0))
-str3 = (int('10'))
-str4 = (str2 * str3)
-print(str4)
-str5 = (str4 % 10)
-print(str5)
+str2 = my_string[-1]
+print(str2)
